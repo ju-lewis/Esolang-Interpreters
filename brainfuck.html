@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainf*ck Interpreter</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 style="text-align: center;">Bool's Brainf*ck Interpreter</h1>
+    <div class="main-display">
+        <div class="cell-container">
+        </div>
+        <div id="WP">^</div>
+        <div id="output"></div>
+    </div>
+    <!-- Programming area -->
+    <div class="editor">
+        <textarea id="code-input" rows="10" cols="50"></textarea>
+        <div class="controls">
+            <div id="run" onclick="runCode();">Execute</div>
+            <input type="range" min="0.001" max="1000" class="slider" id="speed">
+        </div>
+    </div>
+
+    <script src="brainfuck.js"></script>
+</body>
+</html>

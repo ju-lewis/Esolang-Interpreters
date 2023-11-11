@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: #333;
+
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+
+.output {
+    margin-top: 10vw;
+    text-align: center;
+}
+
+.disp {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+
+textarea {
+    background-color: transparent;
+    resize: none;
+    max-width: 40em;
+    max-height: 20em;
+    font-size: 1em;
+    color: white;
+}
+
+#stack {
+
+    margin-left: 30px;
+    width: 80px;
+    height: fit-content;
+    border: 1px solid white;
+}
+
+.stack-val {
+    width: inherit;
+    height: 1.5em;
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#run {
+    margin-top: 10px;
+    background-color: #ccc;
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#run:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+.highlight {
+    position: absolute;
+    width: 0.6em;
+    height: 1.2em;
+    background-color: rgba(232, 192, 34, 0.3);
+}

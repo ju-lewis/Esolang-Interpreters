@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #333;
+    overflow-x: hidden;
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+#WP {
+    width: fit-content;
+    height: fit-content;
+}
+
+.cell-container {
+    display: flex;
+    flex-direction: row;
+
+    height: 2em;
+    width: 100vw;
+
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.cell {
+    min-width: 2em;
+    width: fit-content;
+    height: 1.5em;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.editor {
+    width: fit-content;
+    height: 5em;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#code-input {
+    resize: none;
+
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#run {
+    background-color: white;
+    font-weight: bold;
+    color: #333;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#run:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
